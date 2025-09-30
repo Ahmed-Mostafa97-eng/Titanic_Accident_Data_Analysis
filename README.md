@@ -18,8 +18,7 @@ The sinking of the Titanic is one of the most infamous shipwrecks in history. Wh
 
 The dataset used in this analysis is the classic Titanic dataset, sourced from the Kaggle competition "Titanic: Machine Learning from Disaster". It contains information about 891 passengers.
 
-*   **Source**: [Titanic Dataset on Kaggle](https://www.kaggle.com/c/titanic/data)
-*   **Local Copy**: A copy of the dataset is included in the `/data` directory.
+*   **Source**: titanic_analysis.py
 
 ### Data Dictionary
 
