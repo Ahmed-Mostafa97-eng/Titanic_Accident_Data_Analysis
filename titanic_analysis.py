@@ -6,7 +6,7 @@ Titanic Survival Analysis
 A comprehensive exploratory data analysis of the Titanic passenger dataset
 to understand factors affecting survival rates during the disaster.
 
-Author: Data Analysis Team
+Author: Ahmed Mostafa
 Date: 2024
 """
 
