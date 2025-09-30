@@ -6,13 +6,22 @@ This repository contains a comprehensive exploratory data analysis (EDA) of the 
 
 The sinking of the Titanic is one of the most infamous shipwrecks in history. While there was an element of luck involved in surviving, it seems some groups of people were more likely to survive than others. This analysis uses passenger data (e.g., age, gender, class) to uncover these patterns and provide a clear, data-driven narrative of the event.
 
-## Key Features
-
-*   **Comprehensive Data Cleaning**: A detailed process to handle missing values, correct data types, and prepare the dataset for analysis.
-*   **In-depth EDA**: A thorough exploration of passenger demographics and their relationship with survival rates.
-*   **Feature Engineering**: Creation of new features like `FamilySize`, `IsAlone`, and `Title` to enhance the analysis.
-*   **Rich Visualizations**: A dashboard of plots to clearly illustrate the findings and insights.
-*   **Structured Code**: The analysis is encapsulated in a reusable Python class, promoting modularity and best practices.
+## Questions (KPIs)
+- What is the approximate percentage of passengers who survived the disaster?**- Which month got the highest sales and orders?
+- Did female passengers have a higher survival rate than male passengers? 
+- Which passenger class (Pclass) had the highest survival rate? Which had the lowest?
+- Did children (under 18 years old) have a better chance of survival compared to adults?
+- Which embarkation port had the highest number of survivors? Are there noticeable differences between the three ports?
+- Did passengers traveling with family members (SibSp > 0 or Parch > 0) have a better chance of survival compared to those traveling alone?
+- Did passengers who paid higher ticket fares have better survival chances? What could be the possible reason?
+- Is there a relationship between having a recorded cabin number and the chance of survival?
+- What were the ages of the oldest and youngest survivors?
+- What was the difference in survival rates between third-class passengers and passengers from first and second class combined?
+- Which passenger class had the highest average age? What might this suggest about the type of travelers in that class?
+- If you split passengers into three groups based on fare (Low, Medium, High), which group had the highest survival rate?
+- Who were the top 10 passengers who paid the highest fares, and did they survive?
+- If you create a “Group Size” column (SibSp + Parch + 1), do larger groups have better or worse survival chances?
+- Among female passengers, which class had the highest survival rate? Does the same trend hold for male passengers?
 
 ## Dataset
 
